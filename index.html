@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="full-content">
+        <div class="left-content">
+          <img src="/movies-project/logo-YTS.svg" alt="logo" />
+          <h2>HD movies at the smallest file size.</h2>
+        </div>
+
+        <div class="right-content">
+          <div class="input-content">
+            <img src="/movies-project/icon-search.svg" alt="" />
+            <input type="text" placeholder="Quick search" />
+          </div>
+
+          <div class="list">
+            <a class="nav-a" href="#">Home</a>
+            <a class="nav-a" href="#" class="highlight">4K</a>
+            <a class="nav-a" href="#">Browse Movies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-search">
+      <div class="search-container">
+        <p>Search Term:</p>
+        <div class="inputSearch">
+          <input class="input-data" type="text" id="search" placeholder="Enter search term..." />
+          <button class="search-btn">Search</button>
+        </div>
+      </div>
+    </div>
+
+
+    
+  <div class="filter-container">
+    <div class="filter-group">
+      <label for="quality">Quality:</label>
+      <select id="quality" class="filter-select">
+        <option>2160p</option>
+       
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="genre">Genre:</label>
+      <select id="genre" class="filter-select">
+        <option>All</option>
+       
+       
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="rating">Rating:</label>
+      <select id="rating" class="filter-select">
+        <option value="">All</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    1
+        
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="year">Year:</label>
+      <select id="year" class="filter-select">
+        <option>All</option>
+        
+        
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="order">Order By:</label>
+      <select id="order" class="filter-select">
+        <option>Latest</option>
+        
+      </select>
+    </div>
+  </div>
+
+
+<div class="movies-container">
+
+</div>
+
+    <script src="/movies-project/index.js"></script>
+  </body>
+</html>

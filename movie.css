@@ -1,0 +1,33 @@
+.main-container{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 10px solid yellow;
+   
+}
+.image-container img{
+    border: 8px solid grey;
+}
+
+.image-container{
+   
+    gap: 100px;
+ 
+    
+}
+.poster-container p{
+    color: white;
+    font-size: 30px;
+}
+.poster-container{
+    display: flex;
+        justify-content: center;
+        
+        width: 60%;
+        
+        padding: 30px;
+        gap: 40px;
+}   
+
