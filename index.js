@@ -16,7 +16,7 @@ const showData = (htmlData) => {
 
     posterContainer.classList.add("poster-container");
   posterContainer.addEventListener('click',()=>{
-    window.location.href="/movies-project/movie.html"+"?id="+data.id
+    window.location.href="/movie.html"+"?id="+data.id
   })
     const imageContainer = document.createElement("div");
     imageContainer.classList.add("image-container");
